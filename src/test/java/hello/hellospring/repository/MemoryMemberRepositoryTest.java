@@ -20,7 +20,7 @@ class MemoryMemberRepositoryTest {
 
     @Test
     public void save() {
-    Member member = new Member();
+        Member member = new Member();
         member.setName("Spring");
 
         repository.save(member);
